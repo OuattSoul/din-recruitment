@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-z%*l@+q^2jj51aca*0d4+zksm-5b1a@(5-n+7-!wmln4s9an!l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["din-recruitment.onrender.com"]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
