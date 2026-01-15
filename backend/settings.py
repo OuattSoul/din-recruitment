@@ -99,7 +99,8 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default="postgresql://din_d53n_user:ULDxyBeboLYJviP1E8hiADNQ7Gm4p4mq@dpg-d502eo3e5dus73aq1hn0-a.oregon-postgres.render.com/din_d53n",
+        #default="postgresql://din_d53n_user:ULDxyBeboLYJviP1E8hiADNQ7Gm4p4mq@dpg-d502eo3e5dus73aq1hn0-a.oregon-postgres.render.com/din_d53n",
+        default="postgresql://din_db_user:Dzz0etOrE09GWZU2pNu0VYPD8BJ7RCBA@dpg-d5klhi1r0fns73bh31q0-a.oregon-postgres.render.com/din_db",
     )
 }
 
